@@ -1,46 +1,49 @@
 body {
     text-align: left;
-    background-color:#494343;
-    }
-/*footer {
-    height: 80%;
-    float: center;
-    background-color:#909E6F;
-    width:80%;
-    }*/
-p {
-    height: 90%;
-/*    float: left;*/
-    }
-nav {
-    height: 200%;
-/*    float: right;*/
-    background-color:rgba(126,129,110,0.5);
-    width:100%;
-    list-style: none;
+    background-color:#4A4D49;
 }
-
 
 .wrapper {
-    border: 1px solid white;
+    border: 1px solid #4A4D49;
+    background: url('../images/periaugust1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 0%;
+    position: relative;
+
 }
-nav.ex2 {
+.nav {
     color: #FAF5EB;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 12pt;
-    margin-left: 25%;
-    padding-top: 10%;
-    padding-left: 10%;
-    line-height: 150%; 
+    display: inline-block;
+    top: 0px;
+    margin-left: 10%;
+    margin-right: 0%;
+    background-color: rgba(230,224,212,0.3);
 }
 
-p.ex2 {
-    color: #FAF5EB;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 18pt;
-    margin-left: 10%;
-    word-spacing: 10%;
-    line-height: 130%; 
+ul{
+    list-style-type: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+li{
+      list-style-type: none;
+      display: block;
+      padding: 18px 50px 8px 20px;
+      letter-spacing: 0.085em;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    left: 200px;
 
 }
 
@@ -48,32 +51,150 @@ h1.ex2 {
     color: #332D2D;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 42pt;
-    margin-left: 20%;
-    word-spacing: 20%;
-    line-height: 30%; 
-
-
+    margin-left: 0%;
+    margin-top: 60%;
+    word-spacing: 0%;
+    line-height: 50%; 
 }
 
 h1.ex3 {
     color: #332D2D;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 72pt;
-    margin-left: 20%;
+    margin-left: 0%;
     word-spacing: 20%;
-    line-height: 40%; 
+    line-height: 50%; 
+}
 
+.wrapper-about{
+    border: 1px solid #4A4D49;
+    margin-top: 80px;
+    width: 900px;
 
 }
 
-h1.ex4 {
+.about{
+    text-align: center;
+    word-spacing: 0.055em;
+    letter-spacing: 0.055em;
+}
+
+.about h1 {
     color: #FAF5EB;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 30pt;
-    margin-left: 15%;
-    word-spacing: 10%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    word-spacing: 0.055em;
     line-height: 40%;
-    letter-spacing: 1%; 
+    letter-spacing: 0em;
+    position: relative;
+}
 
+.slogan {
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 8%;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.slogan p {
+    color: #FAF5EB;
+    font-family: Arial;
+    word-spacing: 0.095em;
+    letter-spacing: 0.0em;
+    position: relative;
+}
+
+.portfolio  {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    font-size: 12pt;
+}
+
+.portfolio p {
+    color: #FAF5EB;
+    font-family: Arial;
+    word-spacing: 0.055em;
+    letter-spacing: 0.055em;
+}
+
+.wrapper2 {
+    border: 1px solid #4A4D49;
+    background: url('../images/periaugust2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 900px;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+ }  
+
+.contact  {
+    text-align: center;
+    word-spacing: 0.055em;
+    letter-spacing: 0.055em;
+}
+
+.contact h1 {
+    color: #FAF5EB;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 60px;
+    margin-left: 0%;
+    margin-right: 0%;
+    word-spacing: 0em;
+    letter-spacing: 0em;
+}
+
+.contact p,a {
+    color: #FAF5EB;
+    font-family: Arial;
+    word-spacing: 0.055em;
+    letter-spacing: 0.055em;
+    margin-bottom: 20%;
+    position: relative;
 
 }
+.wrapper3 {
+    border: 1px solid #4A4D49;
+    background: url('../images/periaugust3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 900px;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+ }  
+.footer  {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-size: 10pt;
+}
+.footer h3 {
+    color: #FAF5EB;
+    font-family: Arial;
+    word-spacing: 0.055em;
+    letter-spacing: 0.055em;
+    position: relative;
+
+}
+
+
+
+
+
+
