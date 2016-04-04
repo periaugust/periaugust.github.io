@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Material+Icons|Istok+Web400italic|Anton);
+body {
+    background-color:#4A4D49;
+}
+
+#wrapper {
+    background: url('../images/periaugust1.jpg'); 
+    background-size: contain;
+    background-repeat: round;
+    height: 380px;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:80px;
+
+}
+
+nav {
+    color: #FAF5EB;
+    display: inline-block;
+    background-color: rgba(230,224,212,0.3); 
+    /*padding: 10px;*/
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li a{
+      list-style-type: none;
+      display: block;
+      padding: 10px 50px 10px 5px;
+      letter-spacing: 5px;    
+      text-decoration: none;
+      font-family: "Anton", serif;
+      color: #332D2D;
+      font-size: 16pt;
+      text-align: left;
+
+}
+
+header {
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: "Anton", serif;
+    display: inline-block;
+    color: #332D2D;
+}
+
+header h1 {
+    font-size: 73px;
+    letter-spacing: 17px;
+    line-height: 120%; 
+}
+
+header h1 span {
+    font-size: 48px;
+    letter-spacing: 7px;
+    color: #332D2D;
+}
+
+.about  {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.about h1 {
+    color: #FAF5EB;
+    font-family: "Anton", serif;
+    font-size: 30pt;
+    margin-top: 5%;
+    text-align: center;
+    /*position: relative;*/
+}
+
+.about p {
+    color: #FAF5EB;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16pt;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.portfolio  {
+    /*padding: 10px;*/
+    width: 1065px;
+    margin: auto;
+    text-align: center;
+
+}
+.portfolio p {
+    font-family: "Istok Web", sans-serif;
+    font-size: 14pt;
+    font-style: normal;
+    font-size: 16pt;
+/*    margin-bottom: 5%;
+*/  word-spacing: 10px;
+    letter-spacing: 7px;
+    color: #FAF5EB;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 45%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 10px;
+    float: right;   
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+.wrapper2 {
+    background: url('../images/periaugust2a.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 900px;
+    margin-top: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.contact h1 {
+    color: #FAF5EB;
+    font-family: "Anton", serif;
+    font-size: 30pt;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.contact p {
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 50px;
+    letter-spacing: 7px;
+    font-family: "Istok Web", sans-serif;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.material-icons i {
+    color: #FAF5EB;
+}
+
+.contact p,a,i {
+    color: #FAF5EB;
+    font-family: "Istok Web", sans-serif;
+    font-size: 16pt;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.wrapper3 {
+    background: url('../images/periaugust3a.jpg');
+    background-repeat: round;
+    background-size: contain;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    height: 50px;
+    width: 900px;
+    padding:80px;
+} 
+
+.footer {
+    text-align: center;
+    color: #FAF5EB;
+    font-family: "Istok Web", sans-serif;
+    font-size: 12pt;
+    margin-top: 25px;*/
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+
+/*/ FONT STACK
+p {
+    font-family: palatino, georgia, sans-serif or serif;    
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+}
+strong {
+    font-variant: small-caps;
+
+
+<p><strong>Alice was beginning</strong>
+
+
+Inserting fonts from Google Web 
+http://www.google.com/fonts;
+
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Anton|Francois+One|Pathway+Gothic+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Anton', sans-serif;
+
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,400italic);
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Making the Web Beautiful!</div>
+  </body>
+</html>
+
+body {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+
+
+}
+
+}
+/*/
+
+
