@@ -1,0 +1,502 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Montserrat400700|Arimo400700400italic|Material+Icons|Istok+Web400italic|Anton|pathwayGothicOne);
+
+
+body {
+    background-color:#3e4537;
+}
+
+#wrapper {
+    background: url('../images/periaugust1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 380px;
+    max-width: 900px;
+    margin-top: 2em;
+    /*margin-bottom: 30px;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em 3em ;
+}
+
+nav {
+    color: #FAF5EB;
+    display: inline-block;
+    background-color: rgba(230,224,212,0.3);
+    width: 200px;
+    margin-top: 5em;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: .01em;
+}
+
+li a{
+      display: block;
+      letter-spacing: 5px;    
+      text-decoration: none;
+      font-family: "Anton", serif;
+      color: #332D2D;
+      font-size: 20pt;
+      text-align: left;
+      line-height: 50px;
+      text-indent: 20px;
+}
+li a:hover {
+      background-color: #3e4537;
+      color: #bbd0a6;
+}
+
+header {
+    float: right;
+    font-family: "Anton", serif;
+    display: inline-block;
+    color: #332D2D;
+    /*margin-left: 1em;*/
+}
+
+header h1 {
+    font-size: 95px;
+    letter-spacing: 17px;
+    line-height: 90%; 
+}
+
+header h1 span {
+    font-size: 62px;
+    letter-spacing: 6px;
+    color: #332D2D;
+    /*line-height: 20%; */
+
+}
+
+.about  {
+    text-align: left;
+    background-color: rgba(131,139,88,0.5);
+    height: 200px;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1em 0em .02em 6em;
+}
+
+.about h1 {
+    color: #FAF5EB;
+    font-family: "Arimo", sans-serif;
+    font-size: 15pt;
+    margin-top: 1em;
+}
+
+.about p {
+    color: #FAF5EB;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14pt;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+.portfolio  {
+    padding: 1em 3em;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(131,139,88,0.5);
+}
+
+.portfolio p {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    font-style: normal;
+    font-size: 14pt;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: #FAF5EB;
+    text-align: center;
+}
+
+#two_column {
+    background-color: rgba(230,224,212,0.2);
+    border: 0px #4A4D49;
+    padding: 1em;
+}
+
+#left {
+    /*background-color: #4A4D49;*/
+    /*border: 1px black solid;*/
+    padding: .3em;
+    float: left;
+    width: 45%;
+}
+
+#right {
+    /*background-color: #4A4D49;*/
+    /*border: 1px black solid;*/
+    padding: .3em;
+    float: right;   
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+#two_column img {
+    width: 100%;
+}
+
+div.desc {
+    padding: .8em;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #FAF5EB;
+    background-color: #4A4D49;
+    /*width: 94%;*/
+}
+
+@media only screen and (max-width: 900px){
+
+    .portfolio {
+        padding: 0;
+    }
+
+     .about  {
+    padding: 1em;
+    font-size: 1.3em;
+    line-height: 1em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+    #wrapper {
+    padding:1em;
+    }
+
+    header {
+    float: none;
+    /*margin-left: 3em;*/
+
+    }
+    h1 {
+    font-size: 1em;
+    }
+
+    header h1 span {
+    font-size: .66em;
+    }
+
+    header h1 {
+    font-size: 5em;
+    }
+
+    nav {
+    float: none;
+    width: 10em;
+    margin-top: 1em;
+    margin-right: 2em;
+    }
+
+    li a {
+    /*margin-left: .05em;*/
+    font-size: 1.3em;
+    line-height: 2em;
+    }
+
+    .portfolio {
+        padding: 0;
+    }
+
+    #left {
+    width: 100%;
+    }
+
+    #right {
+    width: 100%;
+    }
+
+    .about  {
+    padding: 1em;
+    font-size: 1.3em;
+    line-height: 1em;
+    }
+}
+   
+@media only screen and (max-width: 670px){
+
+    header {
+    float: none;
+    /*margin-left: .8em;*/
+    }
+
+    h1 {
+    font-size: 1.5em;
+    }
+
+    header h1 span {
+    font-size: .70em;
+    }
+
+    header h1 {
+    font-size: 3.5em;
+    }
+
+    .about {
+    padding: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 590px){
+
+#wrapper {
+    padding:1em;
+    }
+
+    header {
+    float: none;
+    /*margin-left: .8em;*/
+    }
+
+    h1 {
+    font-size: 1.5em;
+    }
+
+    header h1 span {
+    font-size: .70em;
+    }
+
+    header h1 {
+    font-size: 3.5em;
+    }
+
+    nav {
+    width: 10em;
+    margin-top: 1em;
+    margin-right: 2em;
+    }
+    
+    li a {
+    font-size: 1em;
+    line-height: 2em;
+    }
+
+.about {
+    padding: 1em;
+    }
+}
+
+
+.wrapper2 {
+    height: 150px;
+    max-width: 900px;
+    /*margin-top: 2em;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1em 0em .02em 6em;
+}
+
+.wrapper2 {
+    background-color: rgba(131,139,88,0.5);
+}
+
+.contact h1 {
+    color: #FAF5EB;
+    font-family: "Arimo", sans-serif;
+    text-align: left;
+    font-size: 15pt;
+    /*margin-left: 5%;*/
+    margin-right:auto;
+    margin-top: 2em;
+}
+
+.material-icons i {
+    color: #FAF5EB;
+}
+
+.contact p,i {    
+    text-align: left;
+    /*margin-left: 2.5%;*/
+    word-spacing: 5px;
+    color: #FAF5EB;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    letter-spacing: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px){
+
+    .wrapper2 {
+    padding: 1em;
+    }
+
+    .contact  {
+    padding: 0;
+    }
+
+    *h1 {
+     font-size: 1em;
+    }
+
+    p {
+     font-size: 1em;
+    }
+
+    i {
+    font-size: .5em;
+    }
+
+    a {
+    font-size: .5em;
+    }
+
+    #left, #right { float: none; width: auto; } 
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+    .wrapper2 {
+    padding: 1em;
+    }
+
+    .contact h1 {
+    padding: 0;
+    }
+
+    h1 {
+     font-size: 1em;
+    }
+
+    p {
+     font-size: 1em;
+    }
+
+    i {
+    font-size: 1em;
+    }
+
+    a {
+    font-size: .5em;
+    }
+
+    #left, #right { float: none; width: auto; } 
+}
+    
+@media only screen and (max-width: 500px){
+
+    .wrapper2 {
+    padding: 1em;
+    }
+
+    .contact h1 {
+    padding: 0;
+    }
+
+    h1 {
+     font-size: .5em;
+    }
+
+    p {
+     font-size: .5em;
+    }
+
+    i {
+    font-size: .5em;
+    }
+}
+
+.wrapper3 {
+    /*background: url('../images/periaugust3a.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+    height: 50px;
+    max-width: 900px;
+    /*margin-top: 2em;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em 3em ;
+}
+
+.footer {
+    text-align: center;
+    color: #FAF5EB;
+    font-family: "Istok Web", sans-serif;
+    font-size: 12pt;
+    margin-top: 25px;*/
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+
+/*/ FONT STACK
+p {
+    font-family: palatino, georgia, sans-serif or serif;    
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+}
+strong {
+    font-variant: small-caps;
+
+
+<p><strong>Alice was beginning</strong>
+
+
+Inserting fonts from Google Web 
+http://www.google.com/fonts;
+
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Anton|Francois+One|Pathway+Gothic+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Anton', sans-serif;
+
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,400italic);
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Making the Web Beautiful!</div>
+  </body>
+</html>
+
+body {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+
+
+}
+
+}
+/*/
+
+
